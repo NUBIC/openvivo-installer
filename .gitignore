@@ -1,0 +1,4 @@
+# exclude build dirs
+home/target
+solr/target
+webapp/target
