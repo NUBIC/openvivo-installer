@@ -3,6 +3,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* orcid.org green - a6ce39 
+             blue  - 338caf */
+/* blue - 0c0cb5 */
+/* .home-sections h4: #395d7f */
+
 /* Tell the browser to render HTML 5 elements as block */
 header,
 hgroup,
@@ -27,7 +32,7 @@ body {
     margin: 0 auto;
 }
 body {
-   background: #f3f3f0 url(../images/header-background.png) center 0 no-repeat; 
+   background: #f3f3f0 url(../images/vivo-bg-blue.png) center 0 no-repeat; 
 }
 a {
     color: #2485AE;
@@ -128,7 +133,8 @@ input.form-button:visited {
     position: relative;
     border: 0;
     margin: 0;
-    background-color: #749a02;
+    /* background-color: #749a02; */
+    background-color: #59971f;
     color: #fff;
     font-size: 14px;
     font-weight: normal;
@@ -163,7 +169,8 @@ input#delete:visited {
     cursor: pointer;
     border: 0;
     margin: 0;
-    background-color: #398aac;
+    /* background-color: #398aac; */
+    background-color: #0c0cb5;
     color: #fff;
     font-size: 14px;
     font-weight: normal;
@@ -454,10 +461,11 @@ hr.formDivider {
 h1.vivo-logo {
     position: absolute;
     width: 442px;
-    height: 59px;
+    height: 84px;
     top: 28px;
     left: 0;
-    background: url(../images/VIVO-logo.png) 0 0 no-repeat;
+    background: url(../images/open-vivo.png) 0 0 no-repeat;
+    background-size: cover;
 }
 h1.vivo-logo a {
     display: block;
@@ -886,7 +894,8 @@ a.view-all-style {
 .home-sections h4 {
     border-top: 1px solid rgba(220,228,227,.42); /* stroke */
     border-bottom: 1px solid rgba(220,228,227,.42); /* stroke */
-    background-color: #395d7f; /* layer fill content */
+    /* background-color: #395d7f; /* layer fill content */
+    background-color: #338caf;
     border-bottom: 2px solid #62b6d7;
     color: #fff;
 }
@@ -1115,19 +1124,35 @@ ul#individual-tools-people li a {
 }
 .green.button,
 .green.button:visited {
-    background-color: #749a02;
+    /* background-color: #749a02; */
+    background-color: #59971f;
     color: #fff;
 }
 .green.button:hover {
-    background-color: #b2d15a;
+    /* background-color: #b2d15a; */
+    background-color: #749a02;
 }
 .blue.button,
 .blue.button:visited {
-    background-color: #398aac;
+    /* background-color: #398aac; */
+    background-color: #0c0cb5;
     color: #fff;
 }
 .blue.button:hover {
-    background-color: #58a2c1;
+    /* background-color: #58a2c1; */
+    background-color: #398aac;
+}
+
+#login-form .button {
+    background-color: #a6ce39;
+}
+
+#login-form .button:hover {
+    background-color: #749a02;
+}
+
+.home h3.internal-auth {
+    display: none;
 }
 
 /* ------------------------------------------------->  */
